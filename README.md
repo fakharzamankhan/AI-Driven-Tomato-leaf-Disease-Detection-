@@ -77,7 +77,7 @@ AI-Tomato-Care/
 
 bash
 # Clone repository
-git clone https://github.com/yourusername/AI-Tomato-Care.git
+git clone https://github.com/fakharzamankhan/AI-Tomato-Care.git
 
 # Navigate to project folder
 cd AI-Tomato-Care
@@ -87,14 +87,14 @@ pip install -r requirements.txt
 
 # Run the application
 python app.py
+
 🔐 Environment Variables
-
 Create a .env file (not included in repo) and add:
-
 SECRET_KEY=your_secret_key
 DATABASE_URL=your_database_url
 EMAIL_USER=your_email
 EMAIL_PASS=your_password
+
 ⚠️ Notes
 Runtime folders such as uploads/ and tmp_nonleaf/ are generated during execution
 These folders may not be included in the repository
@@ -106,9 +106,7 @@ Ensure PostgreSQL is properly configured before running
 📈 Model accuracy improvement
 
 👨‍💻 Author
-
 Fakhar Zaman
 📍 Pakistan
 📧 fakharzamandaha@yahoo.com
-
 💼 LinkedIn: www.linkedin.com/in/fakhar-zaman-07b565348
